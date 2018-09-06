@@ -69,13 +69,13 @@ win32 {
 
     LIBS += -lwinmm
 
-    SOURCES += joy/Gamepad_windows.cpp
+    SOURCES += Joy/Gamepad_windows.cpp
 }
 
 linux {
     LIBS += -lopenal -ldl -lGLU
 
-    SOURCES += joy/Gamepad_linux.cpp
+    SOURCES += Joy/Gamepad_linux.cpp
 }
 
 macx {
@@ -84,5 +84,5 @@ macx {
     LIBS += -framework CoreFoundation
     LIBS += -framework openal
 
-    SOURCES += joy/Gamepad_macosx.cpp
+    SOURCES += Joy/Gamepad_macosx.cpp
 }
