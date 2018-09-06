@@ -36,9 +36,7 @@ Felix Lazarev
 
 #ifdef _WIN32
 #include <windows.h>
-#endif
-
-#ifdef __APPLE__
+#else
 #include <stddef.h>
 #endif
 
